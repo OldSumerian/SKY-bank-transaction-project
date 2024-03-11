@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "skypro-coursework3"
+version = "0.1.0"
+description = ""
+authors = ["Sumerian <shemerov.s@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "skypro_coursework3"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
